@@ -1,0 +1,46 @@
+I
+800
+OBJ
+
+GLOBAL_cockpit_lit
+POINT_COUNTS	0	0	0	0
+
+# 0 ROOT
+	# 1 Light: Spot
+	# LIGHT: Spot	weight: 10000
+	ANIM_begin
+	# static rotation
+	ANIM_rotate	-1	0	-0	90	90
+	LIGHT_PARAM	airplane_generic_sp -0.026962288 2.7434473 0.29345399 1 0.74540359 0.55834061 2 0.30000001 0.57357645
+	ANIM_end
+	# 1 Light: Spot.001
+	# LIGHT: Spot.001	weight: 10000
+		
+	ANIM_begin
+	# static rotation
+	ANIM_rotate	-0.95264924	0.30407152	-0	77.562605	77.562605
+	LIGHT_PARAM	airplane_generic_sp 1.0402411 2.553843 -0.27494532 1 0.74540359 0.55834061 2 0.30000001 0.57357645
+	ANIM_end
+	# 1 Light: Spot.002
+	# LIGHT: Spot.002	weight: 10000
+	ANIM_begin
+	# static rotation
+	ANIM_rotate	-0.95078063	-0.30986488	-0	77.055909	77.055909
+	LIGHT_PARAM	airplane_generic_sp -1.1258713 2.5227888 -0.28096223 1 0.74540359 0.55834061 2 0.30000001 0.57357645
+	ANIM_end
+	# 1 Light: overhead_left
+	# LIGHT: overhead_left	weight: 10000
+	ANIM_begin
+	# static rotation
+	ANIM_rotate	-0.97440445	0.22480172	-0	30.437099	30.437099
+	LIGHT_PARAM	airplane_generic_sp 0.097057194 1.7857885 -1.6784152 1 0.74540359 0.55834061 1 0.30000001 0.4617487
+	ANIM_end
+	# 1 Light: overhead_right
+	# LIGHT: overhead_right	weight: 10000
+	ANIM_begin
+	# static rotation
+	ANIM_rotate	-0.93785042	-0.34703988	-0	29.238868	29.238868
+	LIGHT_PARAM	airplane_generic_sp -0.24195915 1.7143309 -1.7356544 1 0.74540359 0.55834061 1 0.30000001 0.47140644
+	ANIM_end
+
+# Build with Blender 4.0.1 (build b'd0dd92834a08'). Exported with XPlane2Blender 4.2.0-rc.3+117.20230225221007
